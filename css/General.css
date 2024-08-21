@@ -1,0 +1,97 @@
+    .inFocus {
+        color: #3f6ad8;
+        background: #e0f3ff;
+        font-weight: bold;
+    }
+    
+    .big-col {
+        width: 400px !important;
+    }
+    
+    .dataCol {
+        width: 100px !important;
+    }
+    
+    .counterCol {
+        width: 50px !important;
+    }
+    
+    .numCol {
+        width: 80px !important;
+    }
+    
+    .userMCol {
+        width: 150px !important;
+    }
+    
+    .choiceCol {
+        width: 150px !important;
+    }
+    
+    .lookupCol {
+        width: 150px !important;
+    }
+    
+    .booleanCol {
+        width: 100px !important;
+    }
+    
+    .textCol {
+        width: 200px !important;
+    }
+    
+    .attachCol {
+        width: 20px !important;
+    }
+    
+    .editCol {
+        width: 30px !important;
+    }
+    
+    .IdCol {
+        width: 15px !important;
+    }
+    /* For mobile phones: */
+    
+    .logo-mobile-home {
+        position: fixed;
+        left: 23px;
+        top: 95px;
+        max-width: 279px
+    }
+
+    #DeltaPlaceHolderPageTitleInTitleArea {
+        display: none;
+    }
+    
+    #pageTitle {
+        display: none;
+    }
+    
+    @media only screen and (min-width: 650px) {
+        /* For tablets: */
+        .logo-tablet-home {
+            position: fixed;
+            left: 23px;
+            top: 95px;
+            max-width: 279px
+        }
+        #pageTitle {
+            margin-left: 0px !important;
+            display: inline;
+        }
+    }
+    
+    @media only screen and (min-width: 900px) {
+        /* For desktop: */
+        .logo-desktop-home {
+            position: fixed;
+            left: 23px;
+            top: 95px;
+            max-width: 279px
+        }
+        #pageTitle {
+            margin-left: 206px !important;
+            display: inline;
+        }
+    }
