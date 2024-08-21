@@ -1,0 +1,102 @@
+.app-theme-white.app-container {
+    background: #648596
+}
+
+.app-theme-white .app-sidebar {
+    background: #fff
+}
+
+.app-theme-white .app-page-title {
+    background: rgba(255, 255, 255, 0.8)
+}
+
+.app-theme-white .app-footer .app-footer__inner,
+.app-theme-white .app-header {
+    background: #fafbfc
+}
+
+.app-theme-white.fixed-header .app-header__logo {
+    background: rgba(250, 251, 252, 0.1)
+}
+
+.vertical-nav-menu li a {
+    display: block;
+    line-height: 2.4rem;
+    height: 2.4rem;
+    padding: 0 1.5rem 0 45px;
+    position: relative;
+    border-radius: .25rem;
+    color: #141414;
+    white-space: nowrap;
+    transition: all .2s;
+    margin: .1rem 0
+}
+
+.vertical-nav-menu li a:hover {
+    background: #e0f3ff;
+    text-decoration: none
+}
+
+.vertical-nav-menu li a:hover i.metismenu-icon {
+    opacity: .8
+}
+
+.vertical-nav-menu li a:hover i.metismenu-state-icon {
+    opacity: 1
+}
+
+.vertical-nav-menu li.mm-active>a {
+    font-weight: bold
+}
+
+.vertical-nav-menu i.metismenu-state-icon,
+.vertical-nav-menu i.metismenu-icon {
+    text-align: center;
+    width: 34px;
+    height: 34px;
+    line-height: 34px;
+    position: absolute;
+    left: 5px;
+    top: 50%;
+    margin-top: -17px;
+    font-size: 1.5rem;
+    opacity: .9;
+    transition: color 300ms
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: .88rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #000000;
+    text-align: left;
+    background-color: #fff
+}
+
+.app-page-title .page-title-subheading {
+    padding: 3px 0 0;
+    font-size: .88rem;
+    opacity: .9
+}
+
+.vertical-nav-menu ul>li>a {
+    color: #141414;
+    height: 2rem;
+    line-height: 2rem;
+    padding: 0 1.5rem 0
+}
+
+.text-body {
+    color: #495057 !important
+}
+
+.text-muted {
+    color: #252525 !important
+}
+
+.vertical-timeline-element-content p {
+    color: #1d2022;
+    margin: 0 0 .5rem
+}
