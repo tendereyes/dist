@@ -1,0 +1,74 @@
+/* --- Global navigation --- */
+#DeltaPlaceHolderMain{
+margin-top:30px;
+}
+.ms-breadcrumb-top{
+background-color:#f2f2f2;
+}
+.ms-core-navigation > div > ul.root > li.static a:link, ul.root > li.static a:visited{
+font-size:14px
+}
+/* links */
+.ms-core-navigation > div > ul.root{
+padding-top:2px;
+padding-left:2px
+}
+.ms-core-navigation > div > ul.root > li a{
+border:1px #fff solid;
+padding:5px 5px 5px 5px;
+font-size:15px;
+}
+.ms-core-navigation .ms-core-listMenu-horizontalBox li.static >  .ms-core-listMenu-item{
+margin-right:8px
+}
+/* links not selected */
+.ms-core-navigation > div > ul.root > li.static a:link, ul.root > li.static a:visited{
+color:#222
+}
+/* links selected */
+.ms-core-navigation > div > ul.root > li.static > ul.static > li.selected a:link, ul.root > li.static > ul.static > li.selected a:visited{
+color:#222;
+background-color:#fff
+}
+/* home link selected */
+.ms-core-navigation div.ms-core-listMenu-horizontalBox > ul.static > li.selected a.selected{
+border:1px transparent solid;
+background-color:#fff
+}
+/* home */
+.ms-core-navigation > div > ul.root > li.static > ul.static{
+margin-left:0px
+}
+/* Hover */
+.ms-breadcrumb-top .ms-core-navigation ul.static > li a:hover{
+border:1px transparent solid;color:#222;
+background-color:#fff
+}
+.tendereyes-ref {
+background-color:#E74022 !important
+}
+.tendereyes-ref-active {
+background-color:#FF7F50 !important
+}
+.tendereyes-col {
+background-color:#F9B012 !important
+}
+.tendereyes-proj {
+background-color:#88A737 !important
+}
+.tendereyes-opp {
+background-color:#5CBEBA !important
+}
+.tendereyes-cont {
+background-color:#0663AE !important
+}
+.tendereyes-sub {
+background-color:#5B4D9B !important
+}
+.tendereyes-com {
+background-color:#DE2366 !important
+}
+.tendereyes-home {
+background-color:#1B1B1B !important;
+color: #fff !important;
+}
